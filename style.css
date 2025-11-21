@@ -1,0 +1,134 @@
+.kartinka{width: 30px;
+height: 30px;
+box-shadow: 20px 20px 20px 5px black;}
+
+.konte{display: flex;
+justify-content: center;
+gap: 40px;
+text-shadow: 1px 10px 5px black;}
+
+
+
+
+
+
+
+
+
+
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 900;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.logo {
+    height: 30px;
+}
+
+.foto {
+    height: 250px;
+    width: 350px;
+}
+
+section {
+    padding: 10px;
+    display: flex;
+}
+
+.versum {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.knopka {
+  
+    background-color: black;
+    color: aliceblue;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 900;
+}
+
+header {
+    padding: 20px;
+    background: linear-gradient(1deg, rgba(157,163,166,1) 0%, rgba(255,252,252,1) 100%);
+    margin-bottom: 50px;
+}
+
+.knopka{
+    text-decoration: none;
+    text-align: center;
+}
+.btn{display: flex;
+align-items: center;
+justify-content: flex-end;}
+
+
+
+
+
+
+footer {
+    background: linear-gradient(180deg, rgba(157,163,166,1) 0%, rgba(255,252,252,1) 100%);
+    padding-top: 1px;
+    margin-top: 50px;
+}
+
+footer p {
+    font-size: 16px;
+    line-height: 40px;
+    margin: 0 80px;
+    text-align: center;
+}
+
+.blok {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.kompania {
+    border-radius: 20px;
+    width: 400px;
+}
+
+.magazin {
+    width: 400px;
+    height: 200px;
+}
+
+li {
+    font-size: 18px;
+}
+
+.ikons {
+    width: 25px;
+    height: 25px;
+}
+
+
+main{ margin-left: 40px;
+margin-right: 40px;}
+
+h1{text-shadow: 10px 10px 5px black;}
+
+
+.sulka{box-shadow: 50px 50px 50px 5px black;}
